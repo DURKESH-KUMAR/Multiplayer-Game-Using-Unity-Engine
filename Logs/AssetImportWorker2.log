@@ -1,0 +1,595 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/respin/6000.3.1f1-f56f53296c2c' branch; Version is '6000.3.1f1 (37142da19a94) revision 3609645'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16024 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-28T10:50:39Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sdurk" at "2025-12-28T10:50:39.6661706Z"
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity Projects/Online Multiplayer
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+64271
+-licensingIpc
+LicenseClient-sdurk
+-job-worker-count
+5
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Unity Projects/Online Multiplayer
+D:/Unity Projects/Online Multiplayer
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [19056]  Target information:
+
+Player connection [19056]  * "[IP] 10.223.219.186 [Port] 0 [Flags] 2 [Guid] 146401281 [EditorId] 146401281 [Version] 1048832 [Id] WindowsEditor(7,VICTUS) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [19056] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19056] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 5
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Active build profile path: `Assets/Settings/Build Profiles/Windows.asset`
+Got setting from build profile YAML, name `m_BuildTarget`, value `19`
+Got setting from build profile YAML, name `m_Subtarget`, value `2`
+Refreshing native plugins compatible for Editor in 18.27 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 1.23 ms.
+Initialize engine version: 6000.3.1f1 (37142da19a94)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity Projects/Online Multiplayer/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2050 (ID=0x25ad)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.7703
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56660
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              6fa6fbf3b9b648cd9f27185c7df5b02f
+  Correlation Id:          49bb02bdc7eb4810a1ba30cfcb64155d
+  External correlation Id: 1170127453909211617
+  Machine Id:              CtA96/SZmRryYAHCTW086tK1HO0=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-sdurk" (connect: 0.00s, validation: 0.00s, handshake: 1.13s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-sdurk-notifications" at "2025-12-28T10:50:40.7976273Z"
+[Licensing::Module] Licensing Background thread has ended after 1.13s
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Unity/6000.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469707840781-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Register platform support module: D:/Unity/6000.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: D:/Unity/6000.3.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Registered in 0.005374 seconds.
+- Loaded All Assemblies, in  0.432 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 279 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.785 seconds
+Domain Reload Profiling: 1217ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (43ms)
+	LoadAllAssembliesAndSetupDomain (209ms)
+		LoadAssemblies (137ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (205ms)
+			TypeCache.Refresh (204ms)
+				TypeCache.ScanAssembly (186ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (786ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (732ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (395ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (142ms)
+			ProcessInitializeOnLoadMethodAttributes (90ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+Got setting from build profile YAML, name `m_Development`, value `0`
+[Licensing::Client] Successfully resolved entitlement details
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Duplicate assembly 'System.Runtime.CompilerServices.Unsafe.dll' with different versions detected, using 'Packages/com.unity.collections/Unity.Collections.Tests/System.Runtime.CompilerServices.Unsafe/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a' and ignoring 'Packages/com.unity.ai.assistant/Plugins/Markdig/Dependencies/System.Runtime.CompilerServices.Unsafe.dll, AssemblyName=System.Runtime.CompilerServices.Unsafe, Version=4.0.6.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a'.Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.982 seconds
+Refreshing native plugins compatible for Editor in 5.84 ms, found 4 plugins.
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Refreshing native plugins compatible for Editor in 5.13 ms, found 4 plugins.
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.152 seconds
+Domain Reload Profiling: 3132ms
+	BeginReloadAssembly (681ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (364ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (55ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (1165ms)
+		LoadAssemblies (839ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (479ms)
+			TypeCache.Refresh (388ms)
+				TypeCache.ScanAssembly (358ms)
+			BuildScriptInfoCaches (76ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1152ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (920ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (408ms)
+			ProcessInitializeOnLoadMethodAttributes (305ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 8.09 ms, found 4 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 56 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 10289 unused Assets / (19.4 MB). Loaded Objects now: 11145.
+Memory consumption went from 207.4 MB to 188.0 MB.
+Total: 27.912500 ms (FindLiveObjects: 1.246100 ms CreateObjectMapping: 1.298900 ms MarkObjects: 16.746800 ms  DeleteObjects: 8.618900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5233.550841 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/First_Aid/Textures/First_aid_albedo.tga
+  artifactKey: Guid(3830e955f5176bf4084fc41ce88833b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/First_Aid/Textures/First_aid_albedo.tga using Guid(3830e955f5176bf4084fc41ce88833b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b679ddbf38f38b549c84a98244d45fa') in 0.0933649 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.345675 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/First_Aid/Textures/First_aid_metallic.tga
+  artifactKey: Guid(063cd8f5e7d39244e8bd8c4057f3df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/First_Aid/Textures/First_aid_metallic.tga using Guid(063cd8f5e7d39244e8bd8c4057f3df6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c834c7662c4fdf9ebd0da7528bf5167a') in 0.0599078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Flashlight/Texture/Flashlight_Albedo.tga
+  artifactKey: Guid(dcc28a981bf8ce24095393ca51c25873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Flashlight/Texture/Flashlight_Albedo.tga using Guid(dcc28a981bf8ce24095393ca51c25873) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a3e7bb02c64cceaec823bcb63c01e9c') in 0.0472426 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Flashlight/Texture/Flashlight_Glass.tga
+  artifactKey: Guid(bc5b3a4e3f034d64dbfc8877e911288c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Flashlight/Texture/Flashlight_Glass.tga using Guid(bc5b3a4e3f034d64dbfc8877e911288c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eaba3aed2b333518c26f58232415a0c6') in 0.0238669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.506820 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Flashlight/Texture/Flashlight_Metallic.tga
+  artifactKey: Guid(4e7656719a4d1114b9e816558157eb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Flashlight/Texture/Flashlight_Metallic.tga using Guid(4e7656719a4d1114b9e816558157eb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf342c5f7a11a7ad87f372e0aa16509a') in 0.0314688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerAsteroidEmissive.tif
+  artifactKey: Guid(bfc02e2f0447eaf4190d17879193f0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerAsteroidEmissive.tif using Guid(bfc02e2f0447eaf4190d17879193f0e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29286d2ced9c96c0d3c70dfac8d9cf38') in 0.0208767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023291 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipEmission.tif
+  artifactKey: Guid(88217866776ce4c49944ecb360a5c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoAsteroids/Textures/FlyerPlayershipEmission.tif using Guid(88217866776ce4c49944ecb360a5c6ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '513cfbd4c0676a49a0d30eddabedafd2') in 0.0218625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.165799 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/Gradient.png
+  artifactKey: Guid(4ca1824a2e144f043b9eb7d6e3777659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Textures/Gradient.png using Guid(4ca1824a2e144f043b9eb7d6e3777659) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e596d782e58196af763cb890c2d2d834') in 0.0224016 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.207879 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Grenade-gun/Texture/Grenade-gun_Albedo.tga
+  artifactKey: Guid(b4e21c3911cc0904baf94da2ae95b829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Grenade-gun/Texture/Grenade-gun_Albedo.tga using Guid(b4e21c3911cc0904baf94da2ae95b829) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d2ae5b1cb8baba4fa2371b3778e79b9') in 0.0481304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.094396 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Grenade-gun/Texture/Grenade-gun_Metallic.tga
+  artifactKey: Guid(2492ea40d3929374eb0116e6c1ea415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Grenade-gun/Texture/Grenade-gun_Metallic.tga using Guid(2492ea40d3929374eb0116e6c1ea415b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86bff1e99e479da60361d614ba12f1d7') in 0.138637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316579 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Grenade/Texture/Grenade_Albedo.tga
+  artifactKey: Guid(5eec1399f5f58ec4fa499307a6c34a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Grenade/Texture/Grenade_Albedo.tga using Guid(5eec1399f5f58ec4fa499307a6c34a49) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac401be1cf3eedf1bcf313a861175d11') in 0.0371703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Grenade/Texture/Grenade_Normals.tga
+  artifactKey: Guid(472ee54566d02b34f81de536f6136f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Grenade/Texture/Grenade_Normals.tga using Guid(472ee54566d02b34f81de536f6136f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '240eb88d66ab5f417bc1aefad6dcc36b') in 0.0438012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Gun/Texture/Gun_Normals.tga
+  artifactKey: Guid(3dc5cfceb5337394198a915287abf37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Gun/Texture/Gun_Normals.tga using Guid(3dc5cfceb5337394198a915287abf37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '160d5ac3f1a680f37a5f0d16c1782217') in 0.0365301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.244542 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/help.png
+  artifactKey: Guid(9f1212502533cb34188dd6ef094188cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/help.png using Guid(9f1212502533cb34188dd6ef094188cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '606c5899271ccbc63c180643f8568ffa') in 0.0243296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012228 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Knife/Texture/Knife_Ao.tga
+  artifactKey: Guid(2491d1176a739f94c8e64860647f9103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Knife/Texture/Knife_Ao.tga using Guid(2491d1176a739f94c8e64860647f9103) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36cf56c341839088706f89b0d09c211e') in 0.0287505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.490903 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Knife/Texture/Knife_Normals.tga
+  artifactKey: Guid(0323603db2f84b64598ee0af359757b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Knife/Texture/Knife_Normals.tga using Guid(0323603db2f84b64598ee0af359757b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4b3a0d729d5d225de5f4328988d70bb8') in 0.0357421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OccaSoftware/Crosshairs/Editor/Textures/logo.png
+  artifactKey: Guid(071975048195e45478df8f4a898773cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OccaSoftware/Crosshairs/Editor/Textures/logo.png using Guid(071975048195e45478df8f4a898773cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d333f674e27e0bf1f2625c0d7993f4b') in 0.0223316 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.375171 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures_Pistol/Pistol_Albedo.tga
+  artifactKey: Guid(2eb862a742ac89641997b4fafc3f3e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures_Pistol/Pistol_Albedo.tga using Guid(2eb862a742ac89641997b4fafc3f3e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '29b4d2e605a40365630babb1b94a8372') in 0.0244836 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures_Pistol/Pistol_Normals.tga
+  artifactKey: Guid(f364195a4d5408548990cba301b2a208) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures_Pistol/Pistol_Normals.tga using Guid(f364195a4d5408548990cba301b2a208) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5dc651f16afdff9a81c6a08c49ea1f45') in 0.0223135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040909 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Code/Editor/PunGradient.png
+  artifactKey: Guid(1faa1cf0448470c4ebbb23b97759ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Code/Editor/PunGradient.png using Guid(1faa1cf0448470c4ebbb23b97759ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e6e214e2d3eb465c2d62cd6e8731005') in 0.0216854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.844928 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene/ReflectionProbe-0.exr
+  artifactKey: Guid(ca2a72e1727404226a9166460e788ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/SlotCar-Scene/ReflectionProbe-0.exr using Guid(ca2a72e1727404226a9166460e788ac7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a2e941bde5a1892bc076927d5cba480') in 0.4994849 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Game/Env/Textures/rjfevra_4K_Normal.jpg
+  artifactKey: Guid(db2b007e30b8a19408b67accf2c5217d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Env/Textures/rjfevra_4K_Normal.jpg using Guid(db2b007e30b8a19408b67accf2c5217d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78be77f11af97dcfbfdbf2763c9a7998') in 0.0248221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Game/Env/Textures/rjfevra_4K_Translucency.jpg
+  artifactKey: Guid(a709f793b94b0104d9812bd132211639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Env/Textures/rjfevra_4K_Translucency.jpg using Guid(a709f793b94b0104d9812bd132211639) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd98bc2a5d2296fc3987e1a53395cebdc') in 0.0264853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013071 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/RoundedBox.png
+  artifactKey: Guid(9b2eedba1e3057e4b998cdef3d448105) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/RoundedBox.png using Guid(9b2eedba1e3057e4b998cdef3d448105) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc754e018d56dbaceb02893981ec2bae') in 0.0204637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.316827 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Shotgun/Texture/Shotgun_Ao.tga
+  artifactKey: Guid(640c73e8a1996b244aee07ce1317abb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Shotgun/Texture/Shotgun_Ao.tga using Guid(640c73e8a1996b244aee07ce1317abb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4f9b6329b01ced367960368b4da020d') in 0.0283256 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game/Env/Textures/sl0tedsp_4K_Albedo.jpg
+  artifactKey: Guid(d8c6fed115fa499489baf6aed50fa1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Env/Textures/sl0tedsp_4K_Albedo.jpg using Guid(d8c6fed115fa499489baf6aed50fa1d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b907a3afe9beed529b5257a6c861782') in 0.0245268 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.106757 seconds.
+  path: Assets/Game/Env/Textures/sl0tedsp_4K_Roughness.jpg
+  artifactKey: Guid(ef170df83a6619e4b83f60bc2226c6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Env/Textures/sl0tedsp_4K_Roughness.jpg using Guid(ef170df83a6619e4b83f60bc2226c6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ac82ccee6bfb3c25428404360cff45ad') in 0.0310832 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.261607 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Sniper_rifle/Texture/Sniper_rifle_ao.tga
+  artifactKey: Guid(489fc3e8e2b38c14ba9750eb21b1d937) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Sniper_rifle/Texture/Sniper_rifle_ao.tga using Guid(489fc3e8e2b38c14ba9750eb21b1d937) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '999c72bf3e408679c2ef3f1523d0db50') in 0.0491526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures Body/Solder(body)_Albedo1.tga
+  artifactKey: Guid(8604cb9da9129db41850ce9ed1cc3c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures Body/Solder(body)_Albedo1.tga using Guid(8604cb9da9129db41850ce9ed1cc3c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cfc6056b13b1c8fb53aa54dc8f1e51c2') in 0.0617922 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.431096 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures Body/Solder(body)_Albedo4.tga
+  artifactKey: Guid(74a6b1c407132394faf5887715153ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures Body/Solder(body)_Albedo4.tga using Guid(74a6b1c407132394faf5887715153ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1911db3daa4b8711db9db08daaacccd') in 0.0307123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures Body/Solder(body)_normal.tga
+  artifactKey: Guid(092bba1d6d2b890479dc39bfb8ed0993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures Body/Solder(body)_normal.tga using Guid(092bba1d6d2b890479dc39bfb8ed0993) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8cf8fb964b8eb716d72ce0edb5a9ee11') in 0.033936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures_Equipment/Soldier(equipment)_albedo2.tga
+  artifactKey: Guid(206469e2d8301884a8298e9f6979495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures_Equipment/Soldier(equipment)_albedo2.tga using Guid(206469e2d8301884a8298e9f6979495d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f737b6e7890979cd6830f067dd555219') in 0.0258913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.375173 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures_Equipment/soldier(equipment)_AO.tga
+  artifactKey: Guid(3a5722c9c0d86ab49a0998f403480a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Soldier_01/Texture/Textures_Equipment/soldier(equipment)_AO.tga using Guid(3a5722c9c0d86ab49a0998f403480a01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a79f7d4221a1ae0ed398174cb1b19bce') in 0.0296678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PBR_Military_Pack/Stnad_Scene/Textures/Stand_Albedo.tga
+  artifactKey: Guid(c5828963eeda31143b10703940e8b3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/Stnad_Scene/Textures/Stand_Albedo.tga using Guid(c5828963eeda31143b10703940e8b3b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f4d71b7920c310e60d5a0ab7320edfc4') in 0.0273777 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.422135 seconds.
+  path: Assets/PBR_Military_Pack/Stnad_Scene/Textures/Stand_AO.tga
+  artifactKey: Guid(38a4285afb9fded4480e756c6ee078e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/Stnad_Scene/Textures/Stand_AO.tga using Guid(38a4285afb9fded4480e756c6ee078e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36bb6d6e5d996ebcf8b8f5f386e024ec') in 0.0247119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/PBR_Military_Pack/PBR_Weapons/Stand_Weapons/Textures/Stand_Emissive.tga
+  artifactKey: Guid(9ade3945998179c4785f7555270f56bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/PBR_Weapons/Stand_Weapons/Textures/Stand_Emissive.tga using Guid(9ade3945998179c4785f7555270f56bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ef26ec63549c9b6c9118d31252d01508') in 0.0420115 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PBR_Military_Pack/Stnad_Scene/Textures/Stand_Normals.tga
+  artifactKey: Guid(d160a398dc06a244780d7fb50ab343fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PBR_Military_Pack/Stnad_Scene/Textures/Stand_Normals.tga using Guid(d160a398dc06a244780d7fb50ab343fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b0e14a1c29c5c2a9d3946010dffd1c02') in 0.0293145 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.283581 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Textures/tankco.png
+  artifactKey: Guid(438c80613d3f26e4e80aa3455101d21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoSlotRacer/Kenney Assets/Racing Kit/Models/Textures/tankco.png using Guid(438c80613d3f26e4e80aa3455101d21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd92a2a1b894f863cb614088ac1f5752e') in 0.0274732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.437308 seconds.
+  path: Assets/BloodDecalsAndEffects/TiledRoom/Textures/Tiles/TilesAlbedo.png
+  artifactKey: Guid(a926a4504c5352c4ab3979e16ae091b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/TiledRoom/Textures/Tiles/TilesAlbedo.png using Guid(a926a4504c5352c4ab3979e16ae091b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '600e72e5c53449a1a9da94578d9736b9') in 0.0274276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/BloodDecalsAndEffects/TiledRoom/Textures/Tiles/tilesNorm_height.png
+  artifactKey: Guid(4e9a863906105c34eb42efffe8ff8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/BloodDecalsAndEffects/TiledRoom/Textures/Tiles/tilesNorm_height.png using Guid(4e9a863906105c34eb42efffe8ff8fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f41e21a501141396c72466b5358c527a') in 0.0295492 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleHover.png
+  artifactKey: Guid(b5771695f174e1143b3090393989b688) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleHover.png using Guid(b5771695f174e1143b3090393989b688) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f6134056643bf186c16f634fa86635a7') in 0.0218567 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.303320 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleOnHover.png
+  artifactKey: Guid(e10a16d9e8c6b844db2d3c1c5e4f231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/Shared Assets/Skin/ToggleOnHover.png using Guid(e10a16d9e8c6b844db2d3c1c5e4f231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '218368bc5fcbbf945bcd630ddcdbcb11') in 0.0229978 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/toHub.png
+  artifactKey: Guid(56d51860189dbec438e8e3fba90c46cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Photon/PhotonUnityNetworking/Demos/DemoHub/toHub.png using Guid(56d51860189dbec438e8e3fba90c46cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c57156d87da167fd13c468a272344500') in 0.0223207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.388275 seconds.
+  path: Assets/Game/Env/Textures/ulmkeitew_4K_Albedo.jpg
+  artifactKey: Guid(5b23f4399e5b5354dbb213d5e8333e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Env/Textures/ulmkeitew_4K_Albedo.jpg using Guid(5b23f4399e5b5354dbb213d5e8333e61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f0ebadd3f6204b36655676e28913c618') in 0.0247055 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
